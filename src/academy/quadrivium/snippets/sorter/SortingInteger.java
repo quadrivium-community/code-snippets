@@ -1,4 +1,4 @@
-package academy.quadrivium.snippets.type;
+package academy.quadrivium.snippets.sorter;
 
 import java.util.Arrays;
 
