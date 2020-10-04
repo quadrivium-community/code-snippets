@@ -6,9 +6,8 @@ public class SortingProgram {
 
     public static void main(String[] arguments) {
         // array yo sort
-        final char[] chars = {'a', 'b', 'b', 'a', 'a', 'b', 'b', 'c', 'a', 'd', 'a', 'b', 'b', 'a', 'a', 'b', 'b', 'a'};
+        char[] chars = {'a', 'b', 'b', 'a', 'a', 'b', 'b', 'c', 'a', 'd', 'a', 'b', 'b', 'a', 'a', 'b', 'b', 'a'};
         System.out.println("\n\n==============S=O=R=T=I=N=G==============");
-        Arrays.sort(chars,0,18);
         System.out.print("Array of not sorted characters: ");
         System.out.println(chars);
 
