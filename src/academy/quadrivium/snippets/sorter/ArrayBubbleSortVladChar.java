@@ -1,6 +1,8 @@
 package academy.quadrivium.snippets.sorter;
 
 
+import java.util.Arrays;
+
 public class ArrayBubbleSortVladChar {
     public static void main(String[] args) {
 

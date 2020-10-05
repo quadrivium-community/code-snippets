@@ -6,22 +6,20 @@ import java.util.Arrays;
 public class ArrayBubbleSortVladInteger {
     public static void main(String[] args) {
 
-        char[] A = {'a','f','r','t','1','7','%','$'};
+        int[] A = {6,6,456,236,244,1715,1,52,2,6,25,26,2,732,26};
         boolean swapped = true;
-        while(swapped){
-            swapped=swap(A);
+        while (swapped) {
+            swapped = swap(A);
         }
 
-        for (char element: A) {
-            System.out.println(element);
-        }
+        Arrays.stream(A).forEach(System.out::println);
     }
 
-    public static boolean swap(char[] A){
+    public static boolean swap(int[] A){
         boolean swapped=false;
         for (int i = 0; i < A.length - 1; i++){
             if(A[i] > A[i+1]){
-                char temp;
+                int temp;
                 temp = A[i];
                 A[i] = A[i+1];
                 A[i+1] = temp;
