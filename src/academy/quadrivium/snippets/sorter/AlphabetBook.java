@@ -1,5 +1,4 @@
 package academy.quadrivium.snippets.sorter;
-
 import java.util.Arrays;
 
 public class AlphabetBook {
@@ -25,19 +24,19 @@ public class AlphabetBook {
     }
 
     public static boolean swap(char[] array){
-        boolean count = false;
+        boolean haveTheValuesChanged = false;
 
         for (int i = 0; i < array.length - 1; i++) {
             if (array[i] > array[i + 1]) {
                 char temp = array[i];
                 array[i] = array[i + 1];
                 array[i + 1] = temp;
-                count = true;
+                haveTheValuesChanged = true;
                 countChangesInArray ++;
             } else {
                 countNoChangesInArray ++;
             }
         }
-        return count;
+        return haveTheValuesChanged;
     }
 }
