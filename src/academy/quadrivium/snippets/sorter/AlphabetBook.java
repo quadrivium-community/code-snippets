@@ -7,7 +7,7 @@ public class AlphabetBook {
     // Number of changes in the array
     private static int countChangesInArray;
     private static int countNoChangesInArray;
-    private static final char[] alphabetBook = {'g', 'i', 'S', 's', 'P', 'ю', 'l', 'q', 'ъ', 'v', '*'};
+    private static final char[] alphabetBook = {'g', 'i', 'S', 's', 'P', 'ю', 'l', 'q', 'ъ', 'v', '*', '_', '&', 'ö'};
 
     public static void main(String[] arguments) {
         boolean swapped = true;
