@@ -7,18 +7,21 @@ public class AlphabetBook {
     // Number of changes in the array
     private static int countChangesInArray;
     private static int countNoChangesInArray;
+    private static final char[] alphabetBook = {'g', 'i', 'S', 's', 'P', 'ю', 'l', 'q', 'ъ', 'v', '*'};
 
     public static void main(String[] arguments) {
         boolean swapped = true;
-        char[] alphabetBook = {'g', 'i', 'S', 's', 'P', 'ю', 'l', 'q', 'ъ', 'v'};
+        System.out.println("\nНе отсортированный массив:" + Arrays.toString(alphabetBook));
 
         while (swapped) {
             swapped = swap(alphabetBook);
         }
 
-        System.out.println("Результат отсортированного массива: " + Arrays.toString(alphabetBook));
-        System.out.println("Метод swap произвел:" + countChangesInArray + " изменений/я в массиве");
-        System.out.println("Метод swap ничего не изменил в массиве:" + countNoChangesInArray + " раз/а");
+        System.out.println(
+                "Результат отсортированного массива:" + Arrays.toString(alphabetBook) +
+                "\nМетод swap произвел:" + countChangesInArray + " изменений/я в массиве " +
+                "\nМетод swap ничего " + "не изменил в массиве:" + countNoChangesInArray + " раз/а"
+        );
     }
 
     public static boolean swap(char[] array){
@@ -26,14 +29,13 @@ public class AlphabetBook {
 
         for (int i = 0; i < array.length - 1; i++) {
             if (array[i] > array[i + 1]) {
-                char temp;
-                temp = array[i];
+                char temp = array[i];
                 array[i] = array[i + 1];
                 array[i + 1] = temp;
                 count = true;
-                countChangesInArray = countNoChangesInArray + 1;
+                countChangesInArray ++;
             } else {
-                countNoChangesInArray = countNoChangesInArray + 1;
+                countNoChangesInArray ++;
             }
         }
         return count;
