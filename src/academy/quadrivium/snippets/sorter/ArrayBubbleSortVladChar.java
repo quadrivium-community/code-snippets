@@ -1,6 +1,5 @@
 package academy.quadrivium.snippets.sorter;
 
-
 import java.util.Arrays;
 
 public class ArrayBubbleSortVladChar {
@@ -21,8 +20,7 @@ public class ArrayBubbleSortVladChar {
         boolean swapped=false;
         for (int i = 0; i < A.length - 1; i++){
             if(A[i] > A[i+1]){
-                char temp;
-                temp = A[i];
+                char temp = A[i];
                 A[i] = A[i+1];
                 A[i+1] = temp;
                 swapped=true;
@@ -30,5 +28,4 @@ public class ArrayBubbleSortVladChar {
         }
         return swapped;
     }
-
 }
