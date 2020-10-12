@@ -16,8 +16,7 @@ public class CharsSorter {
         boolean count = false;
         for (int i = 0; i < array.length - 1; i++) {
             if (array[i] > array[i + 1]) {
-                char temp;
-                temp = array[i];
+                char temp = array[i];
                 array[i] = array[i + 1];
                 array[i + 1] = temp;
                 count = true;
@@ -26,4 +25,3 @@ public class CharsSorter {
         return count;
     }
 }
-
