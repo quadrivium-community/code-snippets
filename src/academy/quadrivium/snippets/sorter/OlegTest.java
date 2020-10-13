@@ -4,7 +4,8 @@ public class OlegTest {
     public class Person {
         void stop() {
         }
-        void isLoaded() {
+        public boolean isLoaded() {
+            return true;
         }
         void showDifference() {
         }
