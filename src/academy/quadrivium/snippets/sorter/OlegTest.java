@@ -1,7 +1,7 @@
 package academy.quadrivium.snippets.sorter;
 
 public class OlegTest {
-    public class Person {
+    public static class Person {
         void stop() {
         }
         public boolean isLoaded() {
@@ -9,7 +9,7 @@ public class OlegTest {
         }
         void showDifference() {
         }
-        public void main(String[] args) {
+        public static void main(String[] args) {
         }
     }
 }
