@@ -1,15 +1,11 @@
 package academy.quadrivium.snippets.sorter;
 
 public class OlegTest {
-    public static class Person {
-        void stop() {
-        }
-        public boolean isLoaded() {
-            return true;
-        }
-        void showDifference() {
-        }
-        public static void main(String[] args) {
-        }
+    static String isLoaded() {
+        String a = "Привет";
+        return a;
+    }
+    public static void main(String[] args) {
+        System.out.println(OlegTest.isLoaded());
     }
 }
