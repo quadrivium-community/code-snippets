@@ -8,7 +8,7 @@ public class OlegTest {
     }
 
     // Второй метод isLoaded возвращает значение типа boolean и ничего не принимает.
-    static boolean isLoaded() {
+static boolean isLoaded() {
         return true;
     }
 
@@ -18,6 +18,7 @@ public class OlegTest {
 
     // метод main
     public static void main(String[] args) {
+        System.out.println(OlegTest.isLoaded());
     }
     public static void showDifference(String[] stroka, int[] args) {
 
