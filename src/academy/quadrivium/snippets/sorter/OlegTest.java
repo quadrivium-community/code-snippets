@@ -5,7 +5,9 @@ public class OlegTest {
     // Первый метод stop ничего не возвращает и ничего не принимает
     void stop() {
     }
+
     // Второй метод isLoaded возвращает значение типа boolean и ничего не принимает.
+
 static boolean isLoaded() {
         return true;
     }
