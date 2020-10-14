@@ -19,8 +19,10 @@ public class OlegTest {
     }
     // метод main
     public static void main(String[] args) {
+
         // Обращаемся к методу isLoaded класса OlegTest
         // и выводим его значение в консоль. (в консоли получаем значение true)
+
         System.out.println(OlegTest.isLoaded());
     }
 
