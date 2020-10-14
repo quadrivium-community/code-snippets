@@ -17,6 +17,7 @@ public class OlegTest {
 
     }
     // метод main
+
     public static void main(String[] args) {
 
         // Обращаемся к методу isLoaded класса OlegTest
