@@ -25,6 +25,6 @@ static boolean isLoaded() {
 
         // Обращаемся к методу isLoaded класса OlegTest
         // и выводим его значение в консоль. (в консоли получаем значение true)
-        System.out.println(OlegTest.isLoaded());
+
     }
 }
