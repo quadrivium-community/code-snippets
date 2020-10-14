@@ -13,7 +13,6 @@ public class OlegTest {
     }
 
     //Третий метод showDifference ничего не возвращает и принимает два массива с типом и названием на твоё усмотрение.
-
     public static void showDifference(String[] stroka, int[] args) {
 
     }
@@ -22,7 +21,6 @@ public class OlegTest {
 
         // Обращаемся к методу isLoaded класса OlegTest
         // и выводим его значение в консоль. (в консоли получаем значение true)
-
         System.out.println(OlegTest.isLoaded());
     }
 
