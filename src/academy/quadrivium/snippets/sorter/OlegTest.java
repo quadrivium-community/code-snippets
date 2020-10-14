@@ -16,8 +16,8 @@ public class OlegTest {
     public static void showDifference(String[] stroka, int[] args) {
 
     }
-    // метод main
 
+    // метод main
     public static void main(String[] args) {
 
         // Обращаемся к методу isLoaded класса OlegTest
