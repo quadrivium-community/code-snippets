@@ -17,6 +17,8 @@ public class OlegTest {
 
 
     // метод main
+    public static void main(String[] args) {
+    }
     public static void showDifference(String[] stroka, int[] args) {
 
 
