@@ -1,4 +1,4 @@
-package academy.quadrivium.snippets;
+package academy.quadrivium.snippets.AlekseiTulin;
 
 public class Pony {
     String name = "Pony";

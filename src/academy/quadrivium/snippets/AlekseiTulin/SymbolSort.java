@@ -1,7 +1,7 @@
-package academy.quadrivium.snippets.sorter;
+package academy.quadrivium.snippets.AlekseiTulin;
 import java.util.Arrays;
 
-public class AlphabetBook {
+public class SymbolSort {
 
     // Number of changes in the array
     private static int countChangesInArray;

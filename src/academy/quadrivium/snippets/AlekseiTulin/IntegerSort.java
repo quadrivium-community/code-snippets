@@ -1,8 +1,8 @@
-package academy.quadrivium.snippets.sorter;
+package academy.quadrivium.snippets.AlekseiTulin;
 
 import java.util.Arrays;
 
-public class Sortirovka {
+public class IntegerSort {
     private static int countChangesInArray;
     private static int countNoChangesInArray;
     private static final int[] number = {12, 24225, 29, 913, 91, 20, 7, 0, 11, 79};
