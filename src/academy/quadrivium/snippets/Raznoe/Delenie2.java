@@ -4,7 +4,7 @@ public class Delenie2 {
 
     // метод
     public static long a = 55656567464L;
-    public static long b = 674764;
+    public static long b = 6747649800L;
 
     public static long delenie(long firstNum, long secondNum) {
         return firstNum % secondNum;
