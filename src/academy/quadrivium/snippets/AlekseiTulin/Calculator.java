@@ -47,7 +47,7 @@ public class Calculator implements InterfaceForApplication {
 
         } catch (InputMismatchException e) {
             System.out.println("Sorry, calculator not working like that, if you won't run that " +
-                    "app again please click the restart button, and try again.");
+                    "calculator again please click the Run button, and try again.");
         }
     }
 }
