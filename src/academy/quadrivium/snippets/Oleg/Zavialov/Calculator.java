@@ -1,4 +1,4 @@
-package academy.quadrivium.snippets.Raznoe;
+package academy.quadrivium.snippets.Oleg.Zavialov;
 
 import java.util.Scanner;
 
