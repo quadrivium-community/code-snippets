@@ -5,28 +5,34 @@ import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        
+        int a, b, result;
+        String operator;
+
         System.out.print("Insert integer: ");
-        int a = in.nextInt();
+        a = in.nextInt();
 
         System.out.print("Define operator: ");
-        String operator = in.next();
+        operator = in.next();
 
         System.out.print("Insert another integer: ");
-        int b = in.nextInt();
+        b = in.nextInt();
 
         if (operator.equals("*")) {
-            System.out.println(a * b);
+            result = a * b;
+        }
+        if (operator.equals("*")) {
+            result = a * b;
         } else if (operator.equals("/")) {
-            System.out.println(a / b);
+            result = a / b;
         } else if (operator.equals("%")) {
-            System.out.println(a % b);
+            result = a % b;
         } else if (operator.equals("+")) {
-            System.out.println(a + b);
+            result = a + b;
         } else if (operator.equals("-")) {
-            System.out.println(a - b);
+            result = a - b;
         } else {
             throw new RuntimeException("Operator is not supported!");
         }
-    }
+        System.out.println(result);
+            }
 }
