@@ -20,9 +20,7 @@ public class Calculator {
         if (operator.equals("*")) {
             result = a * b;
         }
-        if (operator.equals("*")) {
-            result = a * b;
-        } else if (operator.equals("/")) {
+        else if (operator.equals("/")) {
             result = a / b;
         } else if (operator.equals("%")) {
             result = a % b;
